@@ -1,7 +1,10 @@
 
 Vue.component('product',{
     props:{
-    
+        additionalDetails:{
+            type: String,
+            required: true
+        },
         premium:{
             type: Boolean,
             required: true
@@ -41,8 +44,8 @@ Vue.component('product',{
         <p>Cart({{cart}})</p>
     </div>
 </div>
-            
-    
+     </div>       
+    </div>
     </div>
     `,
     data() {
@@ -97,7 +100,8 @@ Vue.component('product',{
             return this.variants[this.selectedVariant].variantQuantity
         },
         saleAnnouncement(brand, product) {
-        return "Shahin's big bonanza sale: "+this.brand + " " + this.product
+        return "Shahin's big bonanza sale: "+this.brand 
+        + " " + this.product 
         },
         shipping(){
             if (this.premium) {

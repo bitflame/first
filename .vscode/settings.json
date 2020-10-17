@@ -1,3 +1,4 @@
 {
+    "git.autofetch": false,
     "java.configuration.updateBuildConfiguration": "disabled"
 }
