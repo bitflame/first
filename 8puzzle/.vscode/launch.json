@@ -1,0 +1,67 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<8puzzle>",
+            "request": "launch",
+            "mainClass": "princetonprojects.App",
+            "projectName": "8puzzle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Board<8puzzle>",
+            "request": "launch",
+            "mainClass": "princetonprojects.Board",
+            "projectName": "8puzzle"
+        },
+        {
+            "type": "java",
+            "name": "Debug FequencyCounter",
+            "request": "launch",
+            "mainClass": "princetonprojects.FequencyCounter",
+            "projectName": "8puzzle",
+            "console": "integratedTerminal",
+            "args": ["<" ,
+                "input.txt"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PuzzleChecker<8puzzle>",
+            "request": "launch",
+            "mainClass": "princetonprojects.PuzzleChecker",
+            "projectName": "8puzzle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solver<8puzzle>",
+            "request": "launch",
+            "mainClass": "princetonprojects.Solver",
+            "projectName": "8puzzle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Solver2<8puzzle>",
+            "request": "launch",
+            "mainClass": "princetonprojects.Solver2",
+            "projectName": "8puzzle"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TestClient<8puzzle>",
+            "request": "launch",
+            "mainClass": "princetonprojects.TestClient",
+            "projectName": "8puzzle"
+        }
+    ]
+}
